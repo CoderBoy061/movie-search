@@ -1,0 +1,12 @@
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    border-radius: 1em;
+    height: 30vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}

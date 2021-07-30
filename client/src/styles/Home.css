@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+.home_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 25vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    height: 40vh;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px 10px rgba(173, 216, 230, 0.5);
+}
+.home_haeding{
+    font-family: 'Mate SC', serif;
+}
+.home_para{
+    font-family: 'Mate SC', serif;
+    margin-top: 2vh;
+    color: violet;
+    font-size: 1.2rem;
+}
+.user_name_heading{
+    margin-top: 2vh;
+}
+body{
+    background-color: white;
+}
+.username{
+    color: lightgrey;
+    margin-left: 0.5vw;
+}
+@media (min-width : 300px) and (max-width:400px){
+    .home_section{
+        width: 90%;
+        margin-top: 10vh;
+        margin-left: 2vh;
+    }
+    .home_haeding{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media (min-width : 400px) and (max-width:500px){
+    .home_section{
+        width: 96%;
+        margin-top: 15vh;
+        margin-left: 1vh;
+        margin-right: 1vw;
+    }
+    .home_haeding{
+        width: 80%;
+        text-align: center;
+    }
+}
+

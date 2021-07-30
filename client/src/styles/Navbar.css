@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+.nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 1em;
+}
+.navbar{
+    background-color: white;
+    padding: 1em 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+body{
+    background-color: #ededed;
+}
+.link_para{
+    font-family: 'Salsa', cursive;
+    font-size: 1.3rem;
+}
+.link_para:hover{
+    color: rgb(0, 255, 157);
+}
+.successfull_login{
+    display: flex;
+    align-items: center;
+    gap: 15vw;
+}
+.Avatar{
+    display: flex;
+    align-items: center;
+}
+.useremail{
+    margin-left: 0.5vw;
+}
+.card_item{
+    display: flex;
+    align-items: center;
+}
+.card_number{
+    font-size: 1.3rem;
+}
+.signin_signup{
+    display: flex;
+    gap: 30vw;
+}
+
+
+    

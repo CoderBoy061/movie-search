@@ -1,0 +1,65 @@
+.movies_list {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  box-shadow: 10px 10px 10px 10px rgba(173, 216, 230, 0.5);
+  margin-left: 10vw;
+  margin-right: 30vw;
+  border-radius: 1em;
+  padding: 1em 1em;
+}
+.movie_img {
+  height: 350px;
+  width: 300px;
+  border-radius: 0.5em;
+}
+.movie_title {
+  font-family: "Salsa", cursive;
+  font-size: 1.4rem;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.movies_poster {
+  margin-left: 2vw;
+}
+.movies_details {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  margin-left: 3vw;
+}
+.movie_cast {
+  font-family: "Salsa", cursive;
+  font-size: 1.4rem;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 35vw;
+}
+.movie_rating {
+  font-family: "Salsa", cursive;
+  font-size: 1.4rem;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.movie_year {
+  font-family: "Salsa", cursive;
+  font-size: 1.4rem;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+#add_btn{
+    width: fit-content;
+    margin-top: 2vh;
+}
+.favouries_heading{
+  font-weight: 400;
+  margin-left: 10vw;
+  font-size: 1.4rem;
+  font-family: "Salsa", cursive;
+}
+
+#back_btn{
+  margin-left: 10.2vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
